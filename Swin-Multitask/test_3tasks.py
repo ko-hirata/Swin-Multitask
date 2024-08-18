@@ -63,13 +63,7 @@ parser.add_argument('--tag', help='tag of experiment')
 parser.add_argument('--eval', action='store_true', help='Perform evaluation only')
 parser.add_argument('--throughput', action='store_true', help='Test throughput only')
 
-args = parser.parse_args(args=['--root_dir', '/home/hirata/BRAIN/MTL-Swin-Unet/dataset_common',
-                               '--output_dir', '/home/hirata/BRAIN/MTL-Swin-Unet/src/work_dirs/test',
-                               '--ckpt_path', '/home/hirata/BRAIN/MTL-Swin-Unet/src/work_dirs/commondata_CSR_KFold_epoch600_batch64_lr0.02_lossw334_augRG/fold_0_epoch_599.pth',
-                               '--num_classes', '2',
-                               '--img_size', '224',
-                               '--cfg', './configs/swin_tiny_patch4_window7_224_lite.yaml'])
-
+args = parser.parse_args()
 
 config = get_config(args)
 
