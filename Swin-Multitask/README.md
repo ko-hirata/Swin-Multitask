@@ -1,7 +1,7 @@
 # SwinMultitask
 The code performs multi-task learning of classification, semantic segmentation and image reconstruction using a SwinTransformer-based network.
 
-![MTL-Swin-Unet](https://github.com/user-attachments/assets/f477b424-1d69-48ab-a01f-3e15b33ae0ce)
+![Swin-Multitask](image/MTL-Swin-Unet.png)
 
 ## Pre-trained models
 Create the following directory and put the pre-trained SwinTransformer model in it. You can download the pre-trained model [here](https://drive.google.com/file/d/1Qn2gXIRsUC6_XZq0oN6FnTjnGYV0bK6T/view?usp=sharing).

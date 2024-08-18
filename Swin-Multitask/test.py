@@ -61,7 +61,6 @@ parser.add_argument('--throughput', action='store_true', help='Test throughput o
 
 args = parser.parse_args()
 
-
 config = get_config(args)
 
 

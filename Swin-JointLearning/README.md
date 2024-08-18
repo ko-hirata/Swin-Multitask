@@ -1,7 +1,7 @@
 # SwinJointLearning
 This code performs joint learning of segmentation and classification tasks. It utilizes parameters learned from the segmentation task for the classification task. Prior semantic segmentation with Swin-Unet is required.
 
-![Joint-SwinTransformer](https://github.com/user-attachments/assets/44ac8487-cbae-4d2d-91e4-b7c3511d0a55)
+![Joint-SwinTransformer](image/Joint-SwinTransformer.png)
 
 
 ## Pre-trained models
